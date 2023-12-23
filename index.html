@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>URL Shortener</title>
+    <script
+      src="https://kit.fontawesome.com/357dd17236.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="container header">
+        <a href="#" class="logo">URL Shortener</a>
+        <div class="navigation">
+          <ul class="nav-link-wrapper">
+            <li>
+              <a href="#" class="nav-link">Features</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">Pricing</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">Resources</a>
+            </li>
+          </ul>
+          <ul class="nav-cta-wrapper">
+            <li>
+              <a href="#" class="nav-link nav-cta">Login</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link nav-cta cta-bg">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+        <div id="menu" class="menu">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="row">
+        <div class="col col-text">
+          <h1 class="text-bg">More than just shorter links</h1>
+          <p class="text-slogan">
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <a href="#shorten" class="nav-cta hero-cta cta-bg">Get Started</a>
+        </div>
+        <div class="col col-img">
+          <img src="./images/illustration-working.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="search-box-wrapper container" id="shorten">
+        <form action="#" class="search-box">
+          <input
+            type="text"
+            class="form-control search"
+            name="search"
+            id="search"
+            placeholder="Shorten a link here..."
+          />
+          <input
+            type="submit"
+            class="form-control submit"
+            value="Shorten It!"
+            id="submit-btn"
+          />
+        </form>
+        <div class="err"></div>
+        <div class="result"></div>
+      </div>
+      <div class="container">
+        <div class="feature-title-wrapper text-center">
+          <h1 class="feature-title">Advanced Statistics</h1>
+          <p class="text-slogan">
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+        <div class="feature-card-wrapper row">
+          <div class="card">
+            <div class="card-icon">
+              <img src="./images/icon-brand-recognition.svg" alt="" />
+            </div>
+            <h3 class="card-title">Brand Recognition</h3>
+            <p class="text-slogan card-slogan">
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <img src="./images/icon-detailed-records.svg" alt="" />
+            </div>
+            <h3 class="card-title">Detailed Records</h3>
+            <p class="text-slogan card-slogan">
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <img src="./images/icon-fully-customizable.svg" alt="" />
+            </div>
+            <h3 class="card-title">Fully Customizable</h3>
+            <p class="text-slogan card-slogan">
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="get-started">
+      <div class="container text-center">
+        <h1 class="feature-title">Boost your links today</h1>
+        <a href="#" class="nav-cta hero-cta cta-bg">Get Started</a>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container row">
+        <div class="col">
+          <div class="logo">Shortly</div>
+        </div>
+        <div class="col">
+          <h4 class="footer-title">Features</h4>
+          <a href="#" class="footer-link">Link Shortening</a>
+          <a href="#" class="footer-link">Branded Links</a>
+          <a href="#" class="footer-link">Analytics</a>
+        </div>
+        <div class="col">
+          <h4 class="footer-title">Resources</h4>
+          <a href="#" class="footer-link">Blog</a>
+          <a href="#" class="footer-link">Developers</a>
+          <a href="#" class="footer-link">Support</a>
+        </div>
+        <div class="col">
+          <h4 class="footer-title">Company</h4>
+          <a href="#" class="footer-link">About</a>
+          <a href="#" class="footer-link">Developers</a>
+          <a href="#" class="footer-link">Our Team</a>
+          <a href="#" class="footer-link">Careers</a>
+          <a href="#" class="footer-link">Contact</a>
+        </div>
+        <div class="col social-icons">
+          <a href="#">
+            <img src="./images/icon-facebook.svg" alt="" />
+          </a>
+          <a href="#">
+            <img src="./images/icon-instagram.svg" alt="" />
+          </a>
+          <a href="#">
+            <img src="./images/icon-pinterest.svg" alt="" />
+          </a>
+          <a href="#">
+            <img src="./images/icon-twitter.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="attribution container text-center">
+         Coded by <a href="#">Vaibhav Pandey</a>.
+      </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
